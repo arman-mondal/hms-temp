@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import "../styles.css";
 
 import Menu from "./Menu";
-import {Link, withRouter} from "react-router-dom";
+import {Link, useNavigate as withRouter} from "react-router-dom";
 import {useSelector} from "react-redux";
 
 
